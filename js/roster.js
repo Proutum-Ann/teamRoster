@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         list.forEach(c => {
             const col = document.createElement('div')
 
-            col.className = 'col-6 col-lg-2'
+            col.className = 'col-6 col-lg-3'
             col.innerHTML = `
                 <div class="card h-100 shadow-sm">
                     <img src="${c.photo} class="card-img-top" alt="${c.name}">
@@ -22,6 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="badge badge-type badge-${c.types.t2}">${c.types.t2}</div>
                         <div class="badge badge-type badge-${c.types.t3}">${c.types.t3}</div>
                         <div class="badge badge-type badge-${c.types.t4}">${c.types.t4}</div>
+                        <br>
+                        <span>Level ${c.level}</span>
                         <p class="small text-muted mb-0">${c.gen}</p>
                     </div>
                 </div>
