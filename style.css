@@ -1,8 +1,17 @@
+.card-title a {
+    text-decoration: none;
+    color: #000
+}
+
+/* Team BG Colors */
+.electro {
+    background-color: yellow;
+}
+
 /* Type Badge Colors */
 .badge-type {
-    border: 100px;
-    padding: 2.5%;
-    padding-top: 4%
+    border-radius: 100px;
+    padding: 2%;
 }
 
 .badge-Water {
