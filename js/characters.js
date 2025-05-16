@@ -227,4 +227,58 @@ const characters = [
         photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/30830702?1735415197',
         link: 'https://toyhou.se/24378519.z/30830702.zee'
     },
+    {
+        name: 'Blossom',
+        team: 'None',
+        level: 25,
+        species: {
+            s1: 'Litten',
+            s2: 'Sprigatito',
+            s3: '',
+            s4: ''
+        },
+        types: {
+            t1: 'Fire',
+            t2: 'Grass',
+            t3: '',
+            t4: ''
+        },
+        gen: 'female',
+        ability: '',
+        moves: {
+            m1: '',
+            m2: '',
+            m3: '',
+            m4: ''
+        },
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/21663252?1729370838',
+        link: 'https://toyhou.se/21663252.blossom'
+    },
+    {
+        name: 'Flutura',
+        team: 'None',
+        level: 5,
+        species: {
+            s1: 'Butterfree',
+            s2: 'Skwovet',
+            s3: '',
+            s4: ''
+        },
+        types: {
+            t1: 'Bug',
+            t2: 'Flying',
+            t3: 'Normal',
+            t4: ''
+        },
+        gen: 'n/a',
+        ability: '',
+        moves: {
+            m1: '',
+            m2: '',
+            m3: '',
+            m4: ''
+        },
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28772339?1723698154',
+        link: 'https://toyhou.se/8747259.flutura/28772339.destruction-call-au'
+    },
 ]
