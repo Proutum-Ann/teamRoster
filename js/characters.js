@@ -16,6 +16,25 @@ const characters = [
             t4: ''
         },
         gen: 'male',
+        ability: 'Ball Fetch',
+        moves: {
+            m1: {
+                mname: 'Swift',
+                mtype: 'Normal'
+            },
+            m2: {
+                mname: 'Electro Ball',
+                mtype: 'Electric'
+            },
+            m3: {
+                mname: 'Thunderbolt',
+                mtype: 'Electric'
+            },
+            m4: {
+                mname: 'Wild Charge',
+                mtype: 'Electric'
+            }
+        },
         photo: 'https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/86741940_eB0.png?1723150365',
         link: 'https://toyhou.se/28659751.bolt'
     },
@@ -36,6 +55,13 @@ const characters = [
             t4: ''
         },
         gen: 'male',
+        ability: '',
+        moves: {
+            m1: '',
+            m2: '',
+            m3: '',
+            m4: ''
+        },
         photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28659761?1723150368',
         link: 'https://toyhou.se/28659761.jolt'
     },
@@ -56,6 +82,13 @@ const characters = [
             t4: ''
         },
         gen: 'female',
+        ability: '',
+        moves: {
+            m1: '',
+            m2: '',
+            m3: '',
+            m4: ''
+        },
         photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28681988?1723674222',
         link: 'https://toyhou.se/5812319.virus/28681988.destruction-call-au'
     },
@@ -76,6 +109,13 @@ const characters = [
             t4: ''
         },
         gen: 'male',
+        ability: '',
+        moves: {
+            m1: '',
+            m2: '',
+            m3: '',
+            m4: ''
+        },
         photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/7750271?1596429501',
         link: 'https://toyhou.se/7750271.covalent/28772617.destruction-call-au'
     },
@@ -96,6 +136,13 @@ const characters = [
             t4: ''
         },
         gen: 'female',
+        ability: '',
+        moves: {
+            m1: '',
+            m2: '',
+            m3: '',
+            m4: ''
+        },
         photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/7764835?1596561860',
         link: 'https://toyhou.se/7764835.heather/28773012.destruction-call-au'
     },
@@ -116,6 +163,13 @@ const characters = [
             t4: ''
         },
         gen: 'female',
+        ability: '',
+        moves: {
+            m1: '',
+            m2: '',
+            m3: '',
+            m4: ''
+        },
         photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/5679002?1606757028',
         link: 'https://toyhou.se/5679002.'
     },
@@ -136,6 +190,13 @@ const characters = [
             t4: ''
         },
         gen: 'female',
+        ability: '',
+        moves: {
+            m1: '',
+            m2: '',
+            m3: '',
+            m4: ''
+        },
         photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/8895097?1605632371',
         link: 'https://toyhou.se/8895097.'
     },
@@ -156,6 +217,13 @@ const characters = [
             t4: ''
         },
         gen: 'male',
+        ability: '',
+        moves: {
+            m1: '',
+            m2: '',
+            m3: '',
+            m4: ''
+        },
         photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/30830702?1735415197',
         link: 'https://toyhou.se/24378519.z/30830702.zee'
     },

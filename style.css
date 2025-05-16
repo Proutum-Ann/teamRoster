@@ -4,8 +4,103 @@
 }
 
 /* Team BG Colors */
-.electro {
-    background-color: yellow;
+#electro {
+    background-color: #ffd650;
+}
+
+#none {
+    background-color: rgb(185, 185, 185);
+}
+
+/* Type Colors */
+.Water {
+    background-color: #6890F0;
+    color: #fff
+}
+
+.Fire {
+    background-color: #F08030;
+    color: #fff
+}
+
+.Grass {
+    background-color: #78C850;
+    color: #fff
+}
+
+.Normal {
+    background-color: #A8A8A7;
+    color: #fff
+}
+
+.Electric {
+    background-color: #F8D030;
+    color: #fff
+}
+
+.Flying {
+    background-color: #A890F0;
+    color: #fff
+}
+
+.Fighting {
+    background-color: #C03028;
+    color: #fff
+}
+
+.Ground {
+    background-color: #E0C068;
+    color: #fff
+}
+
+.Rock {
+    background-color: #B8A038;
+    color: #fff
+}
+
+.Bug {
+    background-color: #A8B820;
+    color: #fff
+}
+
+.Poison {
+    background-color: #A040A0;
+    color: #fff
+}
+
+.Dark {
+    background-color: #705848;
+    color: #fff
+}
+
+.Psychic {
+    background-color: #F85888;
+    color: #fff
+}
+
+.Ghost {
+    background-color: #705898;
+    color: #fff
+}
+
+.Ice {
+    background-color: #98D8D8;
+    color: #fff
+}
+
+.Dragon {
+    background-color: #7038F8;
+    color: #fff
+}
+
+.Steel {
+    background-color: #B8B8D0;
+    color: #fff
+}
+
+.Fairy {
+    background-color: #EE99AC;
+    color: #fff
 }
 
 /* Type Badge Colors */
