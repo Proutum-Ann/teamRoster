@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 c.teamColor = 'none'
             }
 
-            col.className = 'col-6 col-lg-3'
+            col.className = 'col-6 col-lg-2'
             col.innerHTML = `
                 <div class="card h-100 shadow-sm" id="${c.teamColor}">
                     <img src="${c.photo} class="card-img-top" alt="${c.name}">
@@ -35,61 +35,52 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span><b>Team:</b> ${c.team}</span><br>
                         <span>Level ${c.level}</span>
                         <p class="small text-muted mb-0">${c.gen}</p>
-                    </div>
-                </div>
-            `
+                        
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#${c.name}Modal">
+                        Launch demo modal
+                        </button>
 
-            //Modals
-            /* const btn = document.getElementById('infoBtn')
-            var span = document.getElementsByClassName("close")[0];
-            const charInfo = document.createElement('div')
-
-            charInfo.className = 'col-8 mx-auto '
-
-            charInfo.innerHTML = `
-            <div id="charModal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-
-                    <div class="card h-100 shadow-sm">
-
-                        <div class="card-body">
-                            <h5>${c.name}'s Info</h5>
-
-                            <div class="row">
-                                <div class="col-6">
-                                    <img src="${c.photo}" alt="${c.name}">
-                                    <p>
-                                        <b>Ability:</b> ${c.ability}
-                                    </p>
+                        <!-- Modal -->
+                        <div class="modal fade" id="${c.name}Modal" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="${c.name}ModalLabel">Additional Information on ${c.name}</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="col-6">
-                                    <p>info text here</p>
-
-                                    <div class="row">
-                                        <div class="col-md-6 ${c.moves.m1.mtype}">${c.moves.m1.mname}</div>
-                                        <div class="col-md-6 ${c.moves.m2.mtype}">${c.moves.m2.mname}</div>
-                                        <div class="col-md-6 ${c.moves.m3.mtype}">${c.moves.m3.mname}</div>
-                                        <div class="col-md-6 ${c.moves.m4.mtype}">${c.moves.m4.mname}</div>
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <div class="row mx-auto">
+                                            <div class="col-md-4">
+                                                <img src="${c.photo}" class="img-fluid">
+                                                <hr>
+                                                <span><b>Ability:</b> ${c.ability}</span><br>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <p>Text here, idk</p>
+                                                <div class="row">
+                                                    <div class="tooltipster col-md-6 ${c.moves.m1.mtype}">${c.moves.m1.mname}</div>
+                                                    <div class="tooltipster col-md-6 ${c.moves.m2.mtype}">${c.moves.m2.mname}</div>
+                                                    <div class="tooltipster col-md-6 ${c.moves.m3.mtype}">${c.moves.m3.mname}</div>
+                                                    <div class="tooltipster col-md-6 ${c.moves.m4.mtype}">${c.moves.m4.mname}</div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>
+                        </div>
+
+                        </div>
                     </div>
-
                 </div>
-            </div>
+
             `
-            info.appendChild(charInfo)
 
-            btn.onclick = function () {
-                charInfo.style.display = "block";
-            }
-
-            span.onclick = function () {
-                charInfo.style.display = "none";
-            }
-                */
+            const modal = document.getElementById(`${c.name}Modal`)
 
             grid.appendChild(col)
         })
