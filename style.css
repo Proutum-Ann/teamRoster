@@ -12,6 +12,12 @@
     background-color: rgb(185, 185, 185);
 }
 
+.charmove {
+    padding: 2%;
+    border-radius: 2px;
+    margin: 1%
+}
+
 /* Type Colors */
 .Water {
     background-color: #6890F0;

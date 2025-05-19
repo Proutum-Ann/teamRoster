@@ -54,16 +54,16 @@ document.addEventListener('DOMContentLoaded', () => {
                                         <div class="row mx-auto">
                                             <div class="col-md-4">
                                                 <img src="${c.photo}" class="img-fluid">
-                                                <hr>
+                                                <hr class="mx-0">
                                                 <span><b>Ability:</b> ${c.ability}</span><br>
                                             </div>
                                             <div class="col-md-8">
                                                 <p>Text here, idk</p>
-                                                <div class="row">
-                                                    <div class="tooltipster col-md-6 ${c.moves.m1.mtype}">${c.moves.m1.mname}</div>
-                                                    <div class="tooltipster col-md-6 ${c.moves.m2.mtype}">${c.moves.m2.mname}</div>
-                                                    <div class="tooltipster col-md-6 ${c.moves.m3.mtype}">${c.moves.m3.mname}</div>
-                                                    <div class="tooltipster col-md-6 ${c.moves.m4.mtype}">${c.moves.m4.mname}</div>
+                                                <div class="row justify-content-between mx-auto">
+                                                    <div class="tooltipster col-md-5 ${c.moves.m1.mtype} charmove">${c.moves.m1.mname}</div>
+                                                    <div class="tooltipster col-md-5 ${c.moves.m2.mtype} charmove">${c.moves.m2.mname}</div>
+                                                    <div class="tooltipster col-md-5 ${c.moves.m3.mtype} charmove">${c.moves.m3.mname}</div>
+                                                    <div class="tooltipster col-md-5 ${c.moves.m4.mtype} charmove">${c.moves.m4.mname}</div>
                                                 </div>
                                             </div>
                                         </div>
