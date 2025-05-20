@@ -27,6 +27,7 @@ const characters = [
             t4: ''
         },
         gen: 'male',
+        blurb: 'The leader of Electro Rodeo. Bolt landed in Krongar after a series of events, and is now looking to adjust to life in this new world he\'s arrived in.',
         ability: 'Ball Fetch',
         moves: {
             m1: {
@@ -78,6 +79,7 @@ const characters = [
             t4: ''
         },
         gen: 'male',
+        blurb: 'The co-founder of Electro Rodeo. He\'s currently trying to find a way home after landing in Krongar, and is hoping to bring his brother home with him.',
         ability: '',
         moves: {
             m1: {
@@ -129,6 +131,7 @@ const characters = [
             t4: ''
         },
         gen: 'female',
+        blurb: 'A native of Krongar. She\'s primarily lived in isolation out of personal comfort, but occasionally joins on Electro Rodeo expeditions.',
         ability: '',
         moves: {
             m1: {
@@ -180,6 +183,7 @@ const characters = [
             t4: ''
         },
         gen: 'male',
+        blurb: 'A native of Krongar. He tends to play pranks on others, but can get his act together when necessary. He helps guide Bolt and Jolt around Krongar alongside Virus.',
         ability: '',
         moves: {
             m1: {
@@ -231,6 +235,7 @@ const characters = [
             t4: ''
         },
         gen: 'female',
+        blurb: 'A member of Electro Rodeo. She arrived in Krongar one day and decided that it was to be her home. She hasn\'t really thought of leaving.',
         ability: '',
         moves: {
             m1: {
@@ -282,6 +287,7 @@ const characters = [
             t4: ''
         },
         gen: 'female',
+        blurb: 'A native of Krongar and "camp mom" of Electro Rodeo. Being afflicted with Dungeon Madness, she rarely goes into dungeon explorations, and will only go if she\'s not certain that it\'s safe.',
         ability: '',
         moves: {
             m1: {
@@ -333,6 +339,7 @@ const characters = [
             t4: ''
         },
         gen: 'female',
+        blurb: 'A native of Krongar. She was created by an ice cream store owner who wanted a mascot for their store. However, the store owner grew to love Vanilla as their own child, and thus allows her to pursue her own path.',
         ability: '',
         moves: {
             m1: {
@@ -384,6 +391,7 @@ const characters = [
             t4: ''
         },
         gen: 'male',
+        blurb: 'A Krongar native. He doesn\'t exactly like to hang around others. He joined Electro Rodeo in hopes to be able to make new friends.',
         ability: '',
         moves: {
             m1: {
@@ -435,6 +443,7 @@ const characters = [
             t4: ''
         },
         gen: 'female',
+        blurb: 'Blossom moved to Krongar from another region. As young as she is, her parents are never far from view. Being the child of explorers, Blossom also strives to go down the same destiny.',
         ability: '',
         moves: {
             m1: {
@@ -486,6 +495,7 @@ const characters = [
             t4: ''
         },
         gen: 'n/a',
+        blurb: 'A Kronger native. Flutura usually hangs around the shopping district, hoping to find a good bargin.',
         ability: '',
         moves: {
             m1: {
