@@ -22,10 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img src="${c.photo} class="card-img-top" alt="${c.name}">
                     <div class="card-body text-center">
                         <h5 class="card-title"><a href="${c.link}">${c.name}</a></h5>
-                        <span class="pokespecies">${c.species.s1}</span>
-                        <span class="pokespecies">${c.species.s2}</span>
-                        <span class="pokespecies">${c.species.s3}</span>
-                        <span class="pokespecies">${c.species.s4}</span>
+                        <span class="pokespecies">${c.species.totalSpecies()}</span>
                         <br>
                         <div class="badge badge-type badge-${c.types.t1}">${c.types.t1}</div>
                         <div class="badge badge-type badge-${c.types.t2}">${c.types.t2}</div>
@@ -56,14 +53,15 @@ document.addEventListener('DOMContentLoaded', () => {
                                                 <img src="${c.photo}" class="img-fluid">
                                                 <hr class="mx-0">
                                                 <span><b>Ability:</b> ${c.ability}</span><br>
+                                                <span><b>Universe:</b> ${c.universe}</span><br>
                                             </div>
                                             <div class="col-md-8">
                                                 <p>Text here, idk</p>
                                                 <div class="row justify-content-between mx-auto">
-                                                    <div class="tooltipster col-md-5 ${c.moves.m1.mtype} charmove">${c.moves.m1.mname}</div>
-                                                    <div class="tooltipster col-md-5 ${c.moves.m2.mtype} charmove">${c.moves.m2.mname}</div>
-                                                    <div class="tooltipster col-md-5 ${c.moves.m3.mtype} charmove">${c.moves.m3.mname}</div>
-                                                    <div class="tooltipster col-md-5 ${c.moves.m4.mtype} charmove">${c.moves.m4.mname}</div>
+                                                    <div class="col-md-5 ${c.moves.m1.mtype} charmove">${c.moves.m1.mname}</div>
+                                                    <div class="col-md-5 ${c.moves.m2.mtype} charmove">${c.moves.m2.mname}</div>
+                                                    <div class="col-md-5 ${c.moves.m3.mtype} charmove">${c.moves.m3.mname}</div>
+                                                    <div class="col-md-5 ${c.moves.m4.mtype} charmove">${c.moves.m4.mname}</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -79,8 +77,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
 
             `
-
-            const modal = document.getElementById(`${c.name}Modal`)
 
             grid.appendChild(col)
         })
