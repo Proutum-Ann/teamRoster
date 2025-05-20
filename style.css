@@ -4,12 +4,18 @@
 }
 
 /* Team BG Colors */
-#electro {
+#electro img {
     background-color: #ffd650;
 }
 
-#none {
-    background-color: rgb(185, 185, 185);
+#none img {
+    background-color: #b9b9b9;
+}
+
+/* Universe Borders */
+.dc {
+    border: #871D29 solid !important;
+    background-color: #E1453E;
 }
 
 .charmove {
