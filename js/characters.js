@@ -83,20 +83,20 @@ const characters = [
         ability: '',
         moves: {
             m1: {
-                mname: '',
-                mtype: ''
+                mname: 'Encore',
+                mtype: 'Normal'
             },
             m2: {
-                mname: '',
-                mtype: ''
+                mname: 'Spark',
+                mtype: 'Electric'
             },
             m3: {
-                mname: '',
-                mtype: ''
+                mname: 'Switcheroo',
+                mtype: 'Dark'
             },
             m4: {
-                mname: '',
-                mtype: ''
+                mname: 'Roar',
+                mtype: 'Normal'
             },
         },
         universe: 'Destruction Call',
@@ -135,20 +135,20 @@ const characters = [
         ability: '',
         moves: {
             m1: {
-                mname: '',
-                mtype: ''
+                mname: 'Fake Out',
+                mtype: 'Normal'
             },
             m2: {
-                mname: '',
-                mtype: ''
+                mname: 'Power-Up Punch',
+                mtype: 'Fighting'
             },
             m3: {
-                mname: '',
-                mtype: ''
+                mname: 'Snarl',
+                mtype: 'Dark'
             },
             m4: {
-                mname: '',
-                mtype: ''
+                mname: 'Spark',
+                mtype: 'Electric'
             },
         },
         universe: 'Destruction Call',
@@ -187,20 +187,20 @@ const characters = [
         ability: '',
         moves: {
             m1: {
-                mname: '',
-                mtype: ''
+                mname: 'Play Nice',
+                mtype: 'Normal'
             },
             m2: {
-                mname: '',
-                mtype: ''
+                mname: 'Quick Attack',
+                mtype: 'Normal'
             },
             m3: {
-                mname: '',
-                mtype: ''
+                mname: 'Thunder Wave',
+                mtype: 'Electric'
             },
             m4: {
-                mname: '',
-                mtype: ''
+                mname: 'Nuzzle',
+                mtype: 'Electric'
             },
         },
         universe: 'Destruction Call',
@@ -239,20 +239,20 @@ const characters = [
         ability: '',
         moves: {
             m1: {
-                mname: '',
-                mtype: ''
+                mname: 'Leafage',
+                mtype: 'Grass'
             },
             m2: {
-                mname: '',
-                mtype: ''
+                mname: 'Double Team',
+                mtype: 'Normal'
             },
             m3: {
-                mname: '',
-                mtype: ''
+                mname: 'Fury Cutter',
+                mtype: 'Bug'
             },
             m4: {
-                mname: '',
-                mtype: ''
+                mname: 'Thunder Shock',
+                mtype: 'Electric'
             },
         },
         universe: 'Destruction Call',
@@ -291,20 +291,20 @@ const characters = [
         ability: '',
         moves: {
             m1: {
-                mname: '',
-                mtype: ''
+                mname: 'Thunder Wave',
+                mtype: 'Electric'
             },
             m2: {
-                mname: '',
-                mtype: ''
+                mname: 'Helping Hand',
+                mtype: 'Normal'
             },
             m3: {
-                mname: '',
-                mtype: ''
+                mname: 'Nuzzle',
+                mtype: 'Electric'
             },
             m4: {
-                mname: '',
-                mtype: ''
+                mname: 'Play Nice',
+                mtype: 'Normal'
             },
         },
         universe: 'Destruction Call',
@@ -343,16 +343,16 @@ const characters = [
         ability: '',
         moves: {
             m1: {
-                mname: '',
-                mtype: ''
+                mname: 'Growl',
+                mtype: 'Normal'
             },
             m2: {
-                mname: '',
-                mtype: ''
+                mname: 'Baby-Doll Eyes',
+                mtype: 'Fairy'
             },
             m3: {
-                mname: '',
-                mtype: ''
+                mname: 'Quick Attack',
+                mtype: 'Normal'
             },
             m4: {
                 mname: '',
@@ -395,20 +395,20 @@ const characters = [
         ability: '',
         moves: {
             m1: {
-                mname: '',
-                mtype: ''
+                mname: 'Thunder Shock',
+                mtype: 'Electric'
             },
             m2: {
-                mname: '',
-                mtype: ''
+                mname: 'Tail Whip',
+                mtype: 'Normal'
             },
             m3: {
-                mname: '',
-                mtype: ''
+                mname: 'Double-Edge',
+                mtype: 'Normal'
             },
             m4: {
-                mname: '',
-                mtype: ''
+                mname: 'Sand Attack',
+                mtype: 'Ground'
             },
         },
         universe: 'Destruction Call',
@@ -447,20 +447,20 @@ const characters = [
         ability: '',
         moves: {
             m1: {
-                mname: '',
-                mtype: ''
+                mname: 'Scratch',
+                mtype: 'Normal'
             },
             m2: {
-                mname: '',
-                mtype: ''
+                mname: 'Ember',
+                mtype: 'Fire'
             },
             m3: {
-                mname: '',
-                mtype: ''
+                mname: 'Leafage',
+                mtype: 'Grass'
             },
             m4: {
-                mname: '',
-                mtype: ''
+                mname: 'Tail Whip',
+                mtype: 'Normal'
             },
         },
         universe: 'Destruction Call',
@@ -499,20 +499,20 @@ const characters = [
         ability: '',
         moves: {
             m1: {
-                mname: '',
-                mtype: ''
+                mname: 'Bug Bite',
+                mtype: 'Bug'
             },
             m2: {
-                mname: '',
-                mtype: ''
+                mname: 'Supersonic',
+                mtype: 'Normal'
             },
             m3: {
-                mname: '',
-                mtype: ''
+                mname: 'Bite',
+                mtype: 'Dark'
             },
             m4: {
-                mname: '',
-                mtype: ''
+                mname: 'Tackle',
+                mtype: 'Normal'
             },
         },
         universe: 'Destruction Call',
