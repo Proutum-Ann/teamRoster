@@ -3,6 +3,29 @@
     color: #000
 }
 
+div.divider {
+    border-bottom: 3px solid blue;
+    mix-blend-mode: multiply;
+}
+
+hr.divider {
+    border: 1px dashed #000
+}
+
+#modalbtn {
+    border: dashed #380da4 1px;
+    margin: 0;
+    mix-blend-mode: multiply;
+    transition: .2s;
+}
+
+#modalbtn:hover {
+    border: solid #380da4 3px;
+    background-color: yellow;
+    mix-blend-mode: overlay;
+    transform: scale(1.1) rotate(3deg);
+}
+
 /* Team BG Colors */
 #electro img {
     background-color: #ffd650;
@@ -209,4 +232,19 @@
 .badge-Fairy {
     background-color: #EE99AC;
     color: #fff
+}
+
+/* Load Animation */
+#loading {
+    height: 200px;
+    animation-name: load;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    margin-top: 150px
+}
+
+@keyframes load {
+    0%   {height: 200; margin-top: 150px}
+    50%  {height: 100px; margin-top: 200px}
+    100% {height: 450px; margin-top: 20px}
 }

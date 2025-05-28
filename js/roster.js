@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 c.au = 'noUni'
             }
 
-            col.className = 'col-6 col-lg-2'
+            col.className = 'col-6 col-md-3'
             col.innerHTML = `
                 <div class="card h-100 shadow-sm ${c.au}" id="${c.teamColor}">
                     <img src="${c.photo} class="card-img-top" alt="${c.name}">
@@ -40,8 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p class="small text-muted">${c.gen}</p>
                         
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#${c.name}Modal">
-                        Launch demo modal
+                        <button type="button" class="btn" id="modalbtn" data-bs-toggle="modal" data-bs-target="#${c.name}Modal">
+                        More information
                         </button>
 
                         </div>
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="modal fade text-center" id="${c.name}Modal" tabindex="-1" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content ${c.au}">
-                                    <div class="modal-header">
+                                    <div class="modal-header divider">
                                         <h1 class="modal-title fs-5" id="${c.name}ModalLabel">Additional Information on ${c.name}</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                             <div class="row mx-auto">
                                                 <div class="col-md-4">
                                                     <img src="${c.photo}" class="img-fluid mb-0" style="background: transparent">
-                                                    <hr class="my-0 w-100">
+                                                    <hr class="my-0 w-100 divider">
                                                     <span class="small"><b>Ability:</b> ${c.ability}</span><br>
                                                     <span class="small"><b>Universe:</b> ${c.universe}</span><br>
                                                 </div>
