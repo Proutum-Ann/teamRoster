@@ -94,7 +94,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
     render(characters)
 })
-
-/* setTimeout(() => {
-    window.location.href = "home.html"
-}, 5000) */
