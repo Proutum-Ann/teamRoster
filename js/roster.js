@@ -66,8 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
                                                 <div class="col-md-4">
                                                     <img src="${c.photo}" class="img-fluid mb-0" style="background: transparent">
                                                     <hr class="my-0 w-100 divider">
-                                                    <span class="small"><b>Ability:</b> ${c.ability}</span><br>
-                                                    <span class="small"><b>Universe:</b> ${c.universe}</span><br>
+                                                    <span class="small"><b>Ability:</b><br> ${c.ability}</span><br>
+                                                    <span class="small"><b>Universe:</b><br> ${c.universe}</span><br>
                                                 </div>
                                                 <div class="col-md-8">
                                                     <p class="small">${c.blurb}</p>

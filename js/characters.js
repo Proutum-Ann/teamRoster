@@ -80,7 +80,7 @@ const characters = [
         },
         gen: 'male',
         blurb: 'The co-founder of Electro Rodeo. He\'s currently trying to find a way home after landing in Krongar, and is hoping to bring his brother home with him.',
-        ability: '',
+        ability: 'Volt Absorb',
         moves: {
             m1: {
                 mname: 'Encore',
@@ -132,7 +132,7 @@ const characters = [
         },
         gen: 'female',
         blurb: 'A native of Krongar. She\'s primarily lived in isolation out of personal comfort, but occasionally joins on Electro Rodeo expeditions.',
-        ability: '',
+        ability: 'Wonder Skin',
         moves: {
             m1: {
                 mname: 'Fake Out',
@@ -184,7 +184,7 @@ const characters = [
         },
         gen: 'male',
         blurb: 'A native of Krongar. He tends to play pranks on others, but can get his act together when necessary. He helps guide Bolt and Jolt around Krongar alongside Virus.',
-        ability: '',
+        ability: 'Lightning Rod',
         moves: {
             m1: {
                 mname: 'Play Nice',
@@ -236,7 +236,7 @@ const characters = [
         },
         gen: 'female',
         blurb: 'A member of Electro Rodeo. She arrived in Krongar one day and decided that it was to be her home. She hasn\'t really thought of leaving.',
-        ability: '',
+        ability: 'Contrary',
         moves: {
             m1: {
                 mname: 'Leafage',
@@ -288,7 +288,7 @@ const characters = [
         },
         gen: 'female',
         blurb: 'A native of Krongar and "camp mom" of Electro Rodeo. Being afflicted with Dungeon Madness, she rarely goes into dungeon explorations, and will only go if she\'s not certain that it\'s safe.',
-        ability: '',
+        ability: 'Plus',
         moves: {
             m1: {
                 mname: 'Thunder Wave',
@@ -340,7 +340,7 @@ const characters = [
         },
         gen: 'female',
         blurb: 'A native of Krongar. She was created by an ice cream store owner who wanted a mascot for their store. However, the store owner grew to love Vanilla as their own child, and thus allows her to pursue her own path.',
-        ability: '',
+        ability: 'Pickup',
         moves: {
             m1: {
                 mname: 'Growl',
@@ -392,7 +392,7 @@ const characters = [
         },
         gen: 'male',
         blurb: 'A Krongar native. He doesn\'t exactly like to hang around others. He joined Electro Rodeo in hopes to be able to make new friends.',
-        ability: '',
+        ability: 'Quick Feet',
         moves: {
             m1: {
                 mname: 'Thunder Shock',
@@ -444,7 +444,7 @@ const characters = [
         },
         gen: 'female',
         blurb: 'Blossom moved to Krongar from another region. As young as she is, her parents are never far from view. Being the child of explorers, Blossom also strives to go down the same destiny.',
-        ability: '',
+        ability: 'Protean',
         moves: {
             m1: {
                 mname: 'Scratch',
@@ -495,8 +495,8 @@ const characters = [
             t4: ''
         },
         gen: 'n/a',
-        blurb: 'A Kronger native. Flutura usually hangs around the shopping district, hoping to find a good bargin.',
-        ability: '',
+        blurb: 'A Krongar native. Flutura usually hangs around the shopping district, hoping to find a good bargin.',
+        ability: 'Compound Eyes',
         moves: {
             m1: {
                 mname: 'Bug Bite',
@@ -519,4 +519,424 @@ const characters = [
         photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28772339?1723698154',
         link: 'https://toyhou.se/8747259.flutura/28772339.destruction-call-au'
     },
+    {
+        name: 'Aurora',
+        team: 'None',
+        level: 5,
+        species: {
+            s1: 'Seel',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Water',
+            t2: '',
+            t3: '',
+            t4: ''
+        },
+        gen: 'n/a',
+        blurb: '',
+        ability: 'Thick Fat',
+        moves: {
+            m1: {
+                mname: 'Headbutt',
+                mtype: 'Normal'
+            },
+            m2: {
+                mname: 'Growl',
+                mtype: 'Normal'
+            },
+            m3: {
+                mname: '',
+                mtype: ''
+            },
+            m4: {
+                mname: '',
+                mtype: ''
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28772287?1723697888',
+        link: 'https://toyhou.se/7588474.aurora/28772287.destruction-call-au'
+    },
+    {
+        name: 'Cloudy',
+        team: 'None',
+        level: 5,
+        species: {
+            s1: 'Eevee',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Flying',
+            t2: '',
+            t3: '',
+            t4: ''
+        },
+        gen: 'n/a',
+        blurb: '',
+        ability: 'Adaptability',
+        moves: {
+            m1: {
+                mname: 'Swift',
+                mtype: 'Normal'
+            },
+            m2: {
+                mname: 'Calm Mind',
+                mtype: 'Psychic'
+            },
+            m3: {
+                mname: 'Fly',
+                mtype: 'Flying'
+            },
+            m4: {
+                mname: 'Aerial Ace',
+                mtype: 'Flying'
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28772312?1723698003',
+        link: 'https://toyhou.se/7096453.cloudy/28772312.destruction-call-au'
+    },
+    {
+        name: 'Wolf',
+        team: 'None',
+        level: 5,
+        species: {
+            s1: 'Vulpix',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Fire',
+            t2: '',
+            t3: '',
+            t4: ''
+        },
+        gen: 'female',
+        blurb: '',
+        ability: 'Drought',
+        moves: {
+            m1: {
+                mname: 'Ember',
+                mtype: 'Fire'
+            },
+            m2: {
+                mname: 'Tail Whip',
+                mtype: 'Normal'
+            },
+            m3: {
+                mname: 'Disable',
+                mtype: 'Normal'
+            },
+            m4: {
+                mname: '',
+                mtype: ''
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/26390128?1712681237',
+        link: 'https://toyhou.se/26390128'
+    },
+    {
+        name: 'Yiang',
+        team: 'None',
+        level: 5,
+        species: {
+            s1: 'Eevee',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Normal',
+            t2: '',
+            t3: '',
+            t4: ''
+        },
+        gen: 'male',
+        blurb: '',
+        ability: 'Adaptability',
+        moves: {
+            m1: {
+                mname: 'Helping Hand',
+                mtype: 'Normal'
+            },
+            m2: {
+                mname: 'Tackle',
+                mtype: 'Normal'
+            },
+            m3: {
+                mname: 'Sand Attack',
+                mtype: 'Ground'
+            },
+            m4: {
+                mname: 'Tail Whip',
+                mtype: 'Normal'
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/27332580?1719011129',
+        link: 'https://toyhou.se/27332580'
+    },
+    {
+        name: 'Chipper',
+        team: 'None',
+        level: 5,
+        species: {
+            s1: 'Fennekin',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Fire',
+            t2: '',
+            t3: '',
+            t4: ''
+        },
+        gen: 'female',
+        blurb: '',
+        ability: 'Magician',
+        moves: {
+            m1: {
+                mname: 'Scratch',
+                mtype: 'Normal'
+            },
+            m2: {
+                mname: 'Tail Whip',
+                mtype: 'Normal'
+            },
+            m3: {
+                mname: 'Ember',
+                mtype: 'Fire'
+            },
+            m4: {
+                mname: '',
+                mtype: ''
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28772552?1723698958',
+        link: 'https://toyhou.se/9737533.chipper/28772552.destruction-call-au'
+    },
+    {
+        name: 'Ashen',
+        team: 'None',
+        level: 5,
+        species: {
+            s1: 'Fennekin',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Fire',
+            t2: '',
+            t3: '',
+            t4: ''
+        },
+        gen: 'n/a',
+        blurb: '',
+        ability: 'Blaze',
+        moves: {
+            m1: {
+                mname: 'Ember',
+                mtype: 'Fire'
+            },
+            m2: {
+                mname: 'Scratch',
+                mtype: 'Normal'
+            },
+            m3: {
+                mname: 'Tail Whip',
+                mtype: 'Normal'
+            },
+            m4: {
+                mname: '',
+                mtype: ''
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/22950741?1715022945',
+        link: 'https://toyhou.se/22950741'
+    },
+    {
+        name: 'Bark',
+        team: 'None',
+        level: 5,
+        species: {
+            s1: 'Ninetales',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Fire',
+            t2: '',
+            t3: '',
+            t4: ''
+        },
+        gen: 'female',
+        blurb: '',
+        ability: 'Flash Fire',
+        moves: {
+            m1: {
+                mname: 'Incinerate',
+                mtype: 'Fire'
+            },
+            m2: {
+                mname: 'Confuse Ray',
+                mtype: 'Ghost'
+            },
+            m3: {
+                mname: 'Inferno',
+                mtype: 'Fire'
+            },
+            m4: {
+                mname: 'Quick Attack',
+                mtype: 'Normal'
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28818273?1725360597',
+        link: 'https://toyhou.se/28818273.bark'
+    },
 ]
+
+//Template
+/*
+    {
+        name: '',
+        team: '',
+        level: 5,
+        species: {
+            s1: '',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: '',
+            t2: '',
+            t3: '',
+            t4: ''
+        },
+        gen: '',
+        blurb: '',
+        ability: '',
+        moves: {
+            m1: {
+                mname: '',
+                mtype: ''
+            },
+            m2: {
+                mname: '',
+                mtype: ''
+            },
+            m3: {
+                mname: '',
+                mtype: ''
+            },
+            m4: {
+                mname: '',
+                mtype: ''
+            },
+        },
+        universe: '',
+        photo: '',
+        link: ''
+    },
+*/

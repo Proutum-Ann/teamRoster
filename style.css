@@ -24,6 +24,13 @@ hr.divider {
     color: #fff
 }
 
+#silentEclipse:hover {
+
+    border: solid #172d9d 3px;
+    background-color: #a8b8ff;
+    color: #fff
+}
+
 #modalbtn {
     border: dashed #380da4 1px;
     margin: 0;
@@ -51,6 +58,12 @@ hr.divider {
 .dc {
     border: #871D29 solid !important;
     background-color: #E1453E;
+}
+
+.ser {
+    border: #9edcf5 solid !important;
+    background-color: #140c57;
+    color: #fff
 }
 
 .charmove {
