@@ -16,27 +16,54 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="roster.html">Roster</a>
-                </li>
-            </ul>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="roster.html">Roster</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
         </nav>
     </header>
     <main>
-        <div class="col-6 mx-auto">
-            Hi idk what to write here rn so placeholder text
+        <div class="col-4 card mx-auto text-center mt-5 mb-2 p-2">
+            <p>Hello! Welcome to my character roster site! This site specifically contains my characters from various
+                ARPGs that I participate in on ToyHouse!</p>
+        </div>
+        <div class="row col-4 mx-auto">
+            <!-- PMD:DC button -->
+            <button type="button" class="btn col-6 col-md-4 universeInfo" id="destructionCall" data-bs-toggle="modal"
+                data-bs-target="#destructioncall">
+                More information
+            </button>
+
+
+            <!-- PMD:DC modal -->
+            <div class="modal fade text-center" id="destructioncall" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content dc">
+                        <div class="modal-header divider">
+                            <h1 class="modal-title fs-5" id="dcModalLabel">boo</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            wow
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </main>
     <footer>

@@ -4,12 +4,24 @@
 }
 
 div.divider {
-    border-bottom: 3px solid blue;
-    mix-blend-mode: multiply;
+    border-bottom: 3px solid white;
 }
 
 hr.divider {
     border: 1px dashed #000
+}
+
+.universeInfo {
+    border: solid #000000 3px;
+    background-color: #ff3434;
+    color: #fff;
+    transition: 1s;
+}
+
+#destructionCall:hover {
+    border: solid #871D29 3px;
+    background-color: #1E1013;
+    color: #fff
 }
 
 #modalbtn {
