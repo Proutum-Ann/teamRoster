@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 c.au = 'noUni'
             }
 
-            col.className = 'col-6 col-md-3'
+            col.className = 'col-6 col-md-3 col-xl-2'
             col.innerHTML = `
                 <div class="card h-100 shadow-sm ${c.au}" id="${c.teamColor}">
                     <img src="${c.photo} class="card-img-top" alt="${c.name}">
