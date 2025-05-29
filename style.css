@@ -3,6 +3,11 @@
     color: #000
 }
 
+.ser .card-title a {
+    text-decoration: none;
+    color: #fff
+}
+
 div.divider {
     border-bottom: 3px solid white;
 }
@@ -41,11 +46,16 @@ hr.divider {
 #modalbtn:hover {
     border: solid #380da4 3px;
     background-color: yellow;
-    mix-blend-mode: overlay;
+    mix-blend-mode: screen;
     transform: scale(1.1) rotate(3deg);
 }
 
-/* Team BG Colors */
+.ser #modalbtn {
+    color: #fff;
+    mix-blend-mode: screen;
+}
+
+/* Affiliation BG Colors */
 #electro img {
     background-color: #ffd650;
 }

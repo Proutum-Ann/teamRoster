@@ -1,7 +1,7 @@
 const characters = [
     {
         name: 'Bolt',
-        team: 'Electro Rodeo',
+        aff: 'Electro Rodeo',
         level: 43,
         species: {
             s1: 'Plusle',
@@ -53,7 +53,7 @@ const characters = [
     },
     {
         name: 'Jolt',
-        team: 'Electro Rodeo',
+        aff: 'Electro Rodeo',
         level: 26,
         species: {
             s1: 'Minun',
@@ -105,7 +105,7 @@ const characters = [
     },
     {
         name: 'Virus',
-        team: 'Electro Rodeo',
+        aff: 'Electro Rodeo',
         level: 5,
         species: {
             s1: 'Skitty',
@@ -157,7 +157,7 @@ const characters = [
     },
     {
         name: 'Covalent',
-        team: 'Electro Rodeo',
+        aff: 'Electro Rodeo',
         level: 5,
         species: {
             s1: 'Togedemaru',
@@ -209,7 +209,7 @@ const characters = [
     },
     {
         name: 'Heather',
-        team: 'Electro Rodeo',
+        aff: 'Electro Rodeo',
         level: 5,
         species: {
             s1: 'Fomantis',
@@ -243,7 +243,7 @@ const characters = [
                 mtype: 'Grass'
             },
             m2: {
-                mname: 'Double Team',
+                mname: 'Double aff',
                 mtype: 'Normal'
             },
             m3: {
@@ -261,7 +261,7 @@ const characters = [
     },
     {
         name: 'Mia',
-        team: 'Electro Rodeo',
+        aff: 'Electro Rodeo',
         level: 5,
         species: {
             s1: 'Plusle',
@@ -313,7 +313,7 @@ const characters = [
     },
     {
         name: 'Vanilla',
-        team: 'Electro Rodeo',
+        aff: 'Electro Rodeo',
         level: 5,
         species: {
             s1: 'Pachirisu',
@@ -365,7 +365,7 @@ const characters = [
     },
     {
         name: 'Zee',
-        team: 'Electro Rodeo',
+        aff: 'Electro Rodeo',
         level: 5,
         species: {
             s1: 'Jolteon',
@@ -417,7 +417,7 @@ const characters = [
     },
     {
         name: 'Blossom',
-        team: 'None',
+        aff: 'None',
         level: 25,
         species: {
             s1: 'Litten',
@@ -469,7 +469,7 @@ const characters = [
     },
     {
         name: 'Flutura',
-        team: 'None',
+        aff: 'None',
         level: 5,
         species: {
             s1: 'Butterfree',
@@ -521,7 +521,7 @@ const characters = [
     },
     {
         name: 'Aurora',
-        team: 'None',
+        aff: 'None',
         level: 5,
         species: {
             s1: 'Seel',
@@ -573,7 +573,7 @@ const characters = [
     },
     {
         name: 'Cloudy',
-        team: 'None',
+        aff: 'None',
         level: 5,
         species: {
             s1: 'Eevee',
@@ -625,7 +625,7 @@ const characters = [
     },
     {
         name: 'Wolf',
-        team: 'None',
+        aff: 'None',
         level: 5,
         species: {
             s1: 'Vulpix',
@@ -677,7 +677,7 @@ const characters = [
     },
     {
         name: 'Yiang',
-        team: 'None',
+        aff: 'None',
         level: 5,
         species: {
             s1: 'Eevee',
@@ -729,7 +729,7 @@ const characters = [
     },
     {
         name: 'Chipper',
-        team: 'None',
+        aff: 'None',
         level: 5,
         species: {
             s1: 'Fennekin',
@@ -781,7 +781,7 @@ const characters = [
     },
     {
         name: 'Ashen',
-        team: 'None',
+        aff: 'None',
         level: 5,
         species: {
             s1: 'Fennekin',
@@ -833,7 +833,7 @@ const characters = [
     },
     {
         name: 'Bark',
-        team: 'None',
+        aff: 'None',
         level: 5,
         species: {
             s1: 'Ninetales',
@@ -883,13 +883,65 @@ const characters = [
         photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28818273?1725360597',
         link: 'https://toyhou.se/28818273.bark'
     },
+    {
+        name: 'Bouncepaw',
+        aff: 'RoseliClan',
+        level: 11,
+        species: {
+            s1: 'Spheal',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Ice',
+            t2: 'Water',
+            t3: '',
+            t4: ''
+        },
+        gen: 'n/a',
+        blurb: '',
+        ability: 'Oblivious',
+        moves: {
+            m1: {
+                mname: 'Rollout',
+                mtype: 'Rock'
+            },
+            m2: {
+                mname: 'Defense Curl',
+                mtype: 'Normal'
+            },
+            m3: {
+                mname: 'Growl',
+                mtype: 'Normal'
+            },
+            m4: {
+                mname: 'Water Gun',
+                mtype: 'Water'
+            },
+        },
+        universe: 'Silent Eclipse Redux',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/27298577?1715893451',
+        link: 'https://toyhou.se/27298577'
+    },
 ]
 
 //Template
 /*
     {
         name: '',
-        team: '',
+        aff: '',
         level: 5,
         species: {
             s1: '',

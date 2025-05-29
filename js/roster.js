@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (c.universe === 'Destruction Call') {
                 c.au = 'dc'
+            } else if (c.universe === 'Silent Eclipse Redux') {
+                c.au = 'ser'
             } else {
                 c.au = 'noUni'
             }
@@ -28,16 +30,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img src="${c.photo} class="card-img-top" alt="${c.name}">
                     <div class="card-body text-center">
                         <h5 class="card-title mb-0"><a href="${c.link}">${c.name}</a></h5>
-                        <span class="pokespecies small text-muted mb-0">${c.species.totalSpecies()}</span>
+                        <span class="pokespecies small mb-0" style="opacity: 50%">${c.species.totalSpecies()}</span>
                         <br>
                         <div class="badge badge-type badge-${c.types.t1}">${c.types.t1}</div>
                         <div class="badge badge-type badge-${c.types.t2}">${c.types.t2}</div>
                         <div class="badge badge-type badge-${c.types.t3}">${c.types.t3}</div>
                         <div class="badge badge-type badge-${c.types.t4}">${c.types.t4}</div>
                         <br>
-                        <span><b>Affiliation:</b> ${c.team}</span><br>
-                        <span class="small text-muted mb-0">Level ${c.level}</span>
-                        <p class="small text-muted">${c.gen}</p>
+                        <span><b>Affiliation:</b> ${c.aff}</span><br>
+                        <span class="small mb-0" style="opacity: 50%">Level ${c.level}</span>
+                        <p class="small" style="opacity: 50%">${c.gen}</p>
                         
                         <!-- Button trigger modal -->
                         <button type="button" class="btn" id="modalbtn" data-bs-toggle="modal" data-bs-target="#${c.name}Modal">
