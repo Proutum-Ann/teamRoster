@@ -1,3 +1,15 @@
+main {
+    background-image: linear-gradient(#ff7f7f, #d7f0ff);
+    background-color: #d7f0ff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#information {
+    padding-top: 21%;
+    padding-bottom: 21%
+}
+
 .card-title a {
     text-decoration: none;
     color: #000
@@ -275,7 +287,6 @@ hr.divider {
     animation-name: load;
     animation-iteration-count: 1;
     animation-duration: 1s;
-    margin-top: 20em;
 }
 
 @keyframes load {
