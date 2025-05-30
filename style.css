@@ -1,6 +1,9 @@
+body {
+    background-color: #d7f0ff;
+}
+
 main {
     background-image: linear-gradient(#ff7f7f, #d7f0ff);
-    background-color: #d7f0ff;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -72,8 +75,29 @@ hr.divider {
     background-color: #ffd650;
 }
 
-#none img {
+#none img,
+#clanless img {
     background-color: #b9b9b9;
+}
+
+#nanab img {
+    background-image: linear-gradient(#f2e459, #fc8f9d);
+}
+
+#roseli img {
+    background-image: linear-gradient(#355483, #bf333e);
+}
+
+#yache img {
+    background-image: linear-gradient(#078fbf, #5cc2cf);
+}
+
+#papaya img {
+    background-image: linear-gradient(#76b334, #e62f8b);
+}
+
+#pecha img {
+    background-image: linear-gradient(#fdbdb4, #fca19e);
 }
 
 /* Universe Borders */
@@ -82,10 +106,18 @@ hr.divider {
     background-color: #E1453E;
 }
 
+.dc a {
+    color: #fff;
+}
+
 .ser {
     border: #9edcf5 solid !important;
     background-color: #140c57;
     color: #fff
+}
+
+.ser a {
+    color: yellow
 }
 
 .charmove {
