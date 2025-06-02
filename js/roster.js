@@ -82,8 +82,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="modal fade text-center" id="${c.name}Modal" tabindex="-1" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content ${c.au}">
-                                    <div class="modal-header divider">
-                                        <h1 class="modal-title fs-5" id="${c.name}ModalLabel">Additional Information on ${c.name}</h1>
+                                    <div class="modal-header divider justify-content-between">
+                                        <h1 class="modal-title fs-5 mx-lg-5" id="${c.name}ModalLabel">Additional Information on ${c.name}</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
