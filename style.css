@@ -8,6 +8,16 @@ main {
     background-repeat: no-repeat;
 }
 
+.returnBtn {
+    background-color: white;
+    border: #9c9c9c solid
+}
+
+.returnBtn:hover {
+    background-color: #7bff7b;
+    border: #4dc44d solid
+}
+
 #information {
     padding-top: 21%;
     padding-bottom: 21%
@@ -75,8 +85,7 @@ hr.divider {
     background-color: #ffd650;
 }
 
-#none img,
-#clanless img {
+#none img {
     background-color: #b9b9b9;
 }
 
@@ -92,7 +101,7 @@ hr.divider {
     background-image: linear-gradient(#078fbf, #5cc2cf);
 }
 
-#papaya img {
+#payapa img {
     background-image: linear-gradient(#76b334, #e62f8b);
 }
 
@@ -100,14 +109,43 @@ hr.divider {
     background-image: linear-gradient(#fdbdb4, #fca19e);
 }
 
+#star img {
+    background-image: linear-gradient(#ffffff, #8292f1);
+}
+
+#dark img {
+    background-image: linear-gradient(#1d0101, #691111);
+}
+
+#ghost img {
+    background-image: linear-gradient(#cecece, #888888);
+}
+
+#pet img {
+    background-image: linear-gradient(#f5a6ff, #ec85fa);
+}
+
+#rogue img {
+    background-image: linear-gradient(#af301f, #ff4437);
+}
+
+#loner img {
+    background-image: linear-gradient(#6b9179, #3c6446);
+}
+
 /* Universe Borders */
 .dc {
     border: #871D29 solid !important;
     background-color: #E1453E;
+    color: black
 }
 
 .dc a {
-    color: #fff;
+    color: white;
+}
+
+.dc h5 a {
+    color: black;
 }
 
 .ser {

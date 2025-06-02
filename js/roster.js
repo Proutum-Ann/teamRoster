@@ -10,12 +10,36 @@ document.addEventListener('DOMContentLoaded', () => {
         list.forEach(c => {
             const col = document.createElement('div')
 
-            if (c.team === 'Electro Rodeo') {
+            /* Image BG Colors */
+            if (c.aff === 'Electro Rodeo') {
                 c.teamColor = 'electro'
-            } else if (c.team === 'None') {
+            } else if (c.aff === 'NanabClan') {
+                c.teamColor = 'nanab'
+            } else if (c.aff === 'RoseliClan') {
+                c.teamColor = 'roseli'
+            } else if (c.aff === 'YacheClan') {
+                c.teamColor = 'yache'
+            } else if (c.aff === 'PayapaClan') {
+                c.teamColor = 'payapa'
+            } else if (c.aff === 'PechaClan') {
+                c.teamColor = 'pecha'
+            } else if (c.aff === 'StarClan') {
+                c.teamColor = 'star'
+            } else if (c.aff === 'Place of No Stars') {
+                c.teamColor = 'dark'
+            } else if (c.aff === 'Ghost') {
+                c.teamColor = 'ghost'
+            } else if (c.aff === 'Pokepet') {
+                c.teamColor = 'pet'
+            } else if (c.aff === 'Rogue') {
+                c.teamColor = 'rogue'
+            } else if (c.aff === 'Loner') {
+                c.teamColor = 'loner'
+            } else if (c.aff === 'None') {
                 c.teamColor = 'none'
             }
-
+            
+            /* Card Colors */
             if (c.universe === 'Destruction Call') {
                 c.au = 'dc'
             } else if (c.universe === 'Silent Eclipse Redux') {
