@@ -48,7 +48,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/86741940_eB0.png?1723150365',
+        photo: 'imgs/Destruction Call/Bolt.png',
         link: 'https://toyhou.se/28659751.bolt'
     },
     {
@@ -100,7 +100,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28659761?1723150368',
+        photo: 'imgs/Destruction Call/Jolt.png',
         link: 'https://toyhou.se/28659761.jolt'
     },
     {
@@ -152,7 +152,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28681988?1723674222',
+        photo: 'imgs/Destruction Call/Virus.png',
         link: 'https://toyhou.se/5812319.virus/28681988.destruction-call-au'
     },
     {
@@ -204,7 +204,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/7750271?1596429501',
+        photo: 'imgs/Destruction Call/Covalent.png',
         link: 'https://toyhou.se/7750271.covalent/28772617.destruction-call-au'
     },
     {
@@ -256,7 +256,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/7764835?1596561860',
+        photo: 'imgs/Destruction Call/Heather.png',
         link: 'https://toyhou.se/7764835.heather/28773012.destruction-call-au'
     },
     {
@@ -308,7 +308,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/5679002?1606757028',
+        photo: 'imgs/Destruction Call/Mia.png',
         link: 'https://toyhou.se/5679002.'
     },
     {
@@ -360,7 +360,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/8895097?1605632371',
+        photo: 'imgs/Destruction Call/Vanilla.png',
         link: 'https://toyhou.se/8895097.'
     },
     {
@@ -412,7 +412,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/30830702?1735415197',
+        photo: 'imgs/Destruction Call/Zee.png',
         link: 'https://toyhou.se/24378519.z/30830702.zee'
     },
     {

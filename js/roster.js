@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             col.className = 'col-6 col-md-3 col-xl-2'
             col.innerHTML = `
                 <div class="card h-100 shadow-sm ${c.au}" id="${c.teamColor}">
-                    <img src="${c.photo} class="card-img-top" alt="${c.name}">
+                    <img src="${c.photo}" class="card-img-top" alt="${c.name}">
                     <div class="card-body text-center">
                         <h5 class="card-title mb-0"><a href="${c.link}">${c.name}</a></h5>
                         <span class="pokespecies small mb-0" style="opacity: 50%">${c.species.totalSpecies()}</span>
