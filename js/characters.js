@@ -464,7 +464,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/21663252?1729370838',
+        photo: 'imgs/Destruction Call/Blossom.png',
         link: 'https://toyhou.se/21663252.blossom'
     },
     {
@@ -568,7 +568,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28772287?1723697888',
+        photo: 'imgs/Destruction Call/Aurora.png',
         link: 'https://toyhou.se/7588474.aurora/28772287.destruction-call-au'
     },
     {
@@ -828,7 +828,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/22950741?1715022945',
+        photo: 'imgs/Destruction Call/Ashen.png',
         link: 'https://toyhou.se/22950741'
     },
     {
@@ -880,7 +880,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28818273?1725360597',
+        photo: 'imgs/Destruction Call/Bark.png',
         link: 'https://toyhou.se/28818273.bark'
     },
     {
@@ -986,7 +986,7 @@ const characters = [
         universe: 'Silent Eclipse Redux',
         photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/27299003?1716327500',
         link: 'https://toyhou.se/27299003'
-    }, 
+    },
     {
         name: 'Flamekit',
         aff: 'StarClan',
