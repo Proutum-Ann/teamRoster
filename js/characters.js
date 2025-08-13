@@ -27,7 +27,7 @@ const characters = [
             t4: ''
         },
         gen: 'male',
-        blurb: 'The leader of Electro Rodeo. Bolt landed in Krongar after a series of events, and is now looking to adjust to life in this new world he\'s arrived in.',
+        blurb: 'The leader of Electro Rodeo. Bolt landed in Kogranar after a series of events, and is now looking to adjust to life in this new world he\'s arrived in.',
         ability: 'Ball Fetch',
         moves: {
             m1: {
@@ -79,7 +79,7 @@ const characters = [
             t4: ''
         },
         gen: 'male',
-        blurb: 'The co-founder of Electro Rodeo. He\'s currently trying to find a way home after landing in Krongar, and is hoping to bring his brother home with him.',
+        blurb: 'The co-founder of Electro Rodeo. He\'s currently trying to find a way home after landing in Kogranar, and is hoping to bring his brother home with him.',
         ability: 'Volt Absorb',
         moves: {
             m1: {
@@ -131,7 +131,7 @@ const characters = [
             t4: ''
         },
         gen: 'female',
-        blurb: 'A native of Krongar. She\'s primarily lived in isolation out of personal comfort, but occasionally joins on Electro Rodeo expeditions.',
+        blurb: 'A native of Kogranar. She\'s primarily lived in isolation out of personal comfort, but occasionally joins on Electro Rodeo expeditions.',
         ability: 'Wonder Skin',
         moves: {
             m1: {
@@ -183,7 +183,7 @@ const characters = [
             t4: ''
         },
         gen: 'male',
-        blurb: 'A native of Krongar. He tends to play pranks on others, but can get his act together when necessary. He helps guide Bolt and Jolt around Krongar alongside Virus.',
+        blurb: 'A native of Kogranar. He tends to play pranks on others, but can get his act together when necessary. He helps guide Bolt and Jolt around Kogranar alongside Virus.',
         ability: 'Lightning Rod',
         moves: {
             m1: {
@@ -235,7 +235,7 @@ const characters = [
             t4: ''
         },
         gen: 'female',
-        blurb: 'A member of Electro Rodeo. She arrived in Krongar one day and decided that it was to be her home. She hasn\'t really thought of leaving.',
+        blurb: 'A member of Electro Rodeo. She arrived in Kogranar one day and decided that it was to be her home. She hasn\'t really thought of leaving.',
         ability: 'Contrary',
         moves: {
             m1: {
@@ -287,7 +287,7 @@ const characters = [
             t4: ''
         },
         gen: 'female',
-        blurb: 'A native of Krongar and "camp mom" of Electro Rodeo. Being afflicted with Dungeon Madness, she rarely goes into dungeon explorations, and will only go if she\'s not certain that it\'s safe.',
+        blurb: 'A native of Kogranar and "camp mom" of Electro Rodeo. Being afflicted with Dungeon Madness, she rarely goes into dungeon explorations, and will only go if she\'s not certain that it\'s safe.',
         ability: 'Plus',
         moves: {
             m1: {
@@ -339,7 +339,7 @@ const characters = [
             t4: ''
         },
         gen: 'female',
-        blurb: 'A native of Krongar. She was created by an ice cream store owner who wanted a mascot for their store. However, the store owner grew to love Vanilla as their own child, and thus allows her to pursue her own path.',
+        blurb: 'A native of Kogranar. She was created by an ice cream store owner who wanted a mascot for their store. However, the store owner grew to love Vanilla as their own child, and thus allows her to pursue her own path.',
         ability: 'Pickup',
         moves: {
             m1: {
@@ -391,7 +391,7 @@ const characters = [
             t4: ''
         },
         gen: 'male',
-        blurb: 'A Krongar native. He doesn\'t exactly like to hang around others. He joined Electro Rodeo in hopes to be able to make new friends.',
+        blurb: 'A Kogranar native. He doesn\'t exactly like to hang around others. He joined Electro Rodeo in hopes to be able to make new friends.',
         ability: 'Quick Feet',
         moves: {
             m1: {
@@ -443,7 +443,7 @@ const characters = [
             t4: ''
         },
         gen: 'female',
-        blurb: 'Blossom moved to Krongar from another region. As young as she is, her parents are never far from view. Being the child of explorers, Blossom also strives to go down the same destiny.',
+        blurb: 'Blossom moved to Kogranar from another region. As young as she is, her parents are never far from view. Being the child of explorers, Blossom also strives to go down the same destiny.',
         ability: 'Protean',
         moves: {
             m1: {
@@ -495,7 +495,7 @@ const characters = [
             t4: ''
         },
         gen: 'n/a',
-        blurb: 'A Krongar native. Flutura usually hangs around the shopping district, hoping to find a good bargin.',
+        blurb: 'A Kogranar native. Flutura usually hangs around the shopping district, hoping to find a good bargin.',
         ability: 'Compound Eyes',
         moves: {
             m1: {
@@ -547,7 +547,7 @@ const characters = [
             t4: ''
         },
         gen: 'n/a',
-        blurb: '',
+        blurb: 'Aurora\'s a native to the region of Krogranar, and knows their way around the region quite well. They recently moved to Flora Village for a fresh start and change of scenery, and very occasionally goes on expeditions with rescue and explorer teams.',
         ability: 'Thick Fat',
         moves: {
             m1: {
@@ -559,12 +559,12 @@ const characters = [
                 mtype: 'Normal'
             },
             m3: {
-                mname: '',
-                mtype: ''
+                mname: 'Icy Wind',
+                mtype: 'Ice'
             },
             m4: {
-                mname: '',
-                mtype: ''
+                mname: 'Protect',
+                mtype: 'Normal'
             },
         },
         universe: 'Destruction Call',
@@ -599,7 +599,7 @@ const characters = [
             t4: ''
         },
         gen: 'n/a',
-        blurb: '',
+        blurb: 'Cloudy isn\'t much of a talker, nor are they particularly interested in climbing ranks. While they\'re very honest and practical, others seem to take it as a sign that Cloudy\'s destined for some sort of high position. They don\'t like the pressure, they really don\'t.',
         ability: 'Adaptability',
         moves: {
             m1: {
@@ -651,7 +651,7 @@ const characters = [
             t4: ''
         },
         gen: 'female',
-        blurb: '',
+        blurb: 'Contrary to her name, Wolf is, in fact, <i>not</i> a wolf Pokemon! Why choose such a name? I dunno, ask her parents. Oh wait, they\'re not in Kogranar, I guess you can go ask her sister, then.',
         ability: 'Drought',
         moves: {
             m1: {
@@ -667,8 +667,8 @@ const characters = [
                 mtype: 'Normal'
             },
             m4: {
-                mname: '',
-                mtype: ''
+                mname: 'Confuse Ray',
+                mtype: 'Ghost'
             },
         },
         universe: 'Destruction Call',
@@ -703,7 +703,7 @@ const characters = [
             t4: ''
         },
         gen: 'male',
-        blurb: '',
+        blurb: 'Just a little guy who\'s still figuring out the world. He\'s got the fire of an explorer ready to burst!',
         ability: 'Adaptability',
         moves: {
             m1: {
@@ -755,7 +755,7 @@ const characters = [
             t4: ''
         },
         gen: 'female',
-        blurb: '',
+        blurb: 'Quite the charismatic gal, Chipper\'s always around parties and hangouts! While she may seem like those "sporty jock" type Pokemon, she\'s really friendly when you do actually talk to her!',
         ability: 'Magician',
         moves: {
             m1: {
@@ -771,8 +771,8 @@ const characters = [
                 mtype: 'Fire'
             },
             m4: {
-                mname: '',
-                mtype: ''
+                mname: 'Charm',
+                mtype: 'Fairy'
             },
         },
         universe: 'Destruction Call',
@@ -823,8 +823,8 @@ const characters = [
                 mtype: 'Normal'
             },
             m4: {
-                mname: '',
-                mtype: ''
+                mname: 'Facade',
+                mtype: 'Normal'
             },
         },
         universe: 'Destruction Call',
