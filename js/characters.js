@@ -884,6 +884,483 @@ const characters = [
         link: 'https://toyhou.se/28818273.bark'
     },
     {
+        name: 'Tara',
+        aff: 'None',
+        level: 5,
+        species: {
+            s1: 'Manaphy',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Water',
+            t2: '',
+            t3: '',
+            t4: ''
+        },
+        gen: 'Female',
+        blurb: '',
+        ability: 'Hydration',
+        moves: {
+            m1: {
+                mname: 'Heart Swap',
+                mtype: 'Psychic'
+            },
+            m2: {
+                mname: 'Tail Glow',
+                mtype: 'Bug'
+            },
+            m3: {
+                mname: 'Water Gun',
+                mtype: 'Water'
+            },
+            m4: {
+                mname: 'Charm',
+                mtype: 'Fairy'
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/9529372?1742676596',
+        link: 'https://toyhou.se/9529372.tara'
+    },
+    {
+        name: 'Thistle',
+        aff: 'Electro Rodeo',
+        level: 5,
+        species: {
+            s1: 'Morpeko',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Electric',
+            t2: 'Dark',
+            t3: 'Grass',
+            t4: ''
+        },
+        gen: 'intersex',
+        blurb: '',
+        ability: 'Hunger Switch',
+        moves: {
+            m1: {
+                mname: 'Tail Whip',
+                mtype: 'Normal'
+            },
+            m2: {
+                mname: 'Thunder Shock',
+                mtype: 'Electric'
+            },
+            m3: {
+                mname: 'Leer',
+                mtype: 'Normal'
+            },
+            m4: {
+                mname: 'Fake Tears',
+                mtype: 'Dark'
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/8149266?1599595985',
+        link: 'https://toyhou.se/8149266.thistle'
+    },
+    {
+        name: 'Snickers',
+        aff: 'Electro Rodeo',
+        level: 5,
+        species: {
+            s1: 'Shinx',
+            s2: 'Morpeko',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Electric',
+            t2: 'Dark',
+            t3: '',
+            t4: ''
+        },
+        gen: 'male',
+        blurb: '',
+        ability: 'Hunger Switch',
+        moves: {
+            m1: {
+                mname: 'Tail Whip',
+                mtype: 'Normal'
+            },
+            m2: {
+                mname: 'Thunder Shock',
+                mtype: 'Electric'
+            },
+            m3: {
+                mname: 'Tackle',
+                mtype: 'Normal'
+            },
+            m4: {
+                mname: 'Leer',
+                mtype: 'Normal'
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/7094840?1590963093',
+        link: 'https://toyhou.se/7094840.snickers'
+    },
+    {
+        name: 'ZapZap',
+        aff: 'Electro Rodeo',
+        level: 5,
+        species: {
+            s1: 'Rotom',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Electric',
+            t2: 'Ghost',
+            t3: '',
+            t4: ''
+        },
+        gen: 'n/a',
+        blurb: '',
+        ability: 'Levitate',
+        moves: {
+            m1: {
+                mname: 'Astonish',
+                mtype: 'Ghost'
+            },
+            m2: {
+                mname: 'Double Team',
+                mtype: 'Normal'
+            },
+            m3: {
+                mname: 'Thunder Shock',
+                mtype: 'Electric'
+            },
+            m4: {
+                mname: 'Confuse Ray',
+                mtype: 'Ghost'
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/7765077?1596563826',
+        link: 'https://toyhou.se/7765077.zapzap'
+    },
+    {
+        name: 'Cyndy',
+        aff: 'None',
+        level: 5,
+        species: {
+            s1: 'Cyndaquil',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Fire',
+            t2: '',
+            t3: '',
+            t4: ''
+        },
+        gen: 'female',
+        blurb: '',
+        ability: 'Blaze',
+        moves: {
+            m1: {
+                mname: 'Leer',
+                mtype: 'Normal'
+            },
+            m2: {
+                mname: 'Tackle',
+                mtype: 'Normal'
+            },
+            m3: {
+                mname: 'Swift',
+                mtype: 'Normal'
+            },
+            m4: {
+                mname: 'Protect',
+                mtype: 'Normal'
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/5160621?1581299974',
+        link: 'https://toyhou.se/5160621.cyndy'
+    },
+    {
+        name: 'Granny',
+        aff: 'None',
+        level: 49,
+        species: {
+            s1: 'Glaceon',
+            s2: 'Dracozolt',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Ice',
+            t2: 'Electric',
+            t3: 'Dragon',
+            t4: ''
+        },
+        gen: 'female',
+        blurb: '',
+        ability: 'Hustle',
+        moves: {
+            m1: {
+                mname: 'Dragon Tail',
+                mtype: 'Dragon'
+            },
+            m2: {
+                mname: 'Freeze Dry',
+                mtype: 'Ice'
+            },
+            m3: {
+                mname: 'Slam',
+                mtype: 'Normal'
+            },
+            m4: {
+                mname: 'Take Down',
+                mtype: 'Normal'
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/33140714?1747422230',
+        link: 'https://toyhou.se/33140714.granny'
+    },
+    {
+        name: 'Biscuit',
+        aff: 'None',
+        level: 5,
+        species: {
+            s1: 'Fidough',
+            s2: 'Herdier',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Fairy',
+            t2: 'Normal',
+            t3: '',
+            t4: ''
+        },
+        gen: 'male',
+        blurb: '',
+        ability: 'Scrappy',
+        moves: {
+            m1: {
+                mname: 'Growl',
+                mtype: 'Normal'
+            },
+            m2: {
+                mname: 'Lick',
+                mtype: 'Ghost'
+            },
+            m3: {
+                mname: 'Tackle',
+                mtype: 'Normal'
+            },
+            m4: {
+                mname: 'Bite',
+                mtype: 'Dark'
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/34539460?1754589461',
+        link: 'https://toyhou.se/34539460.biscuit'
+    },
+    {
+        name: 'Melaeni',
+        aff: 'None',
+        level: 5,
+        species: {
+            s1: 'Eevee',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: 'Fairy',
+            t2: 'Steel',
+            t3: '',
+            t4: ''
+        },
+        gen: 'female',
+        blurb: '',
+        ability: 'Adaptability',
+        moves: {
+            m1: {
+                mname: 'Covet',
+                mtype: 'Normal'
+            },
+            m2: {
+                mname: 'Tackle',
+                mtype: 'Normal'
+            },
+            m3: {
+                mname: 'Double-Edge',
+                mtype: 'Normal'
+            },
+            m4: {
+                mname: 'Alluring Voice',
+                mtype: 'Fairy'
+            },
+        },
+        universe: 'Destruction Call',
+        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/34376581?1753899982',
+        link: 'https://toyhou.se/34376581.melaeni'
+    },
+]
+
+//Template
+/*
+    {
+        name: '',
+        aff: '',
+        level: 5,
+        species: {
+            s1: '',
+            s2: '',
+            s3: '',
+            s4: '',
+            totalSpecies: function () {
+                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
+                    return this.s1
+                } else if (this.s3 === '' && this.s4 === '') {
+                    return this.s1 + '+' + this.s2
+                } else if (this.s4 == '') {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3
+                } else {
+                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
+                }
+            }
+        },
+        types: {
+            t1: '',
+            t2: '',
+            t3: '',
+            t4: ''
+        },
+        gen: '',
+        blurb: '',
+        ability: '',
+        moves: {
+            m1: {
+                mname: '',
+                mtype: ''
+            },
+            m2: {
+                mname: '',
+                mtype: ''
+            },
+            m3: {
+                mname: '',
+                mtype: ''
+            },
+            m4: {
+                mname: '',
+                mtype: ''
+            },
+        },
+        universe: '',
+        photo: '',
+        link: ''
+    },
+*/
+
+// SER Characters [WIP, TOO MANY OF THEM!!]
+/* 
+
+    {
         name: 'Bouncepaw',
         aff: 'RoseliClan',
         level: 11,
@@ -1922,61 +2399,5 @@ const characters = [
         universe: 'Silent Eclipse Redux',
         photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/19305520?1671371874',
         link: 'https://toyhou.se/19305520'
-    },
-]
-
-//Template
-/*
-    {
-        name: '',
-        aff: '',
-        level: 5,
-        species: {
-            s1: '',
-            s2: '',
-            s3: '',
-            s4: '',
-            totalSpecies: function () {
-                if (this.s2 === '' && this.s3 === '' && this.s4 === '') {
-                    return this.s1
-                } else if (this.s3 === '' && this.s4 === '') {
-                    return this.s1 + '+' + this.s2
-                } else if (this.s4 == '') {
-                    return this.s1 + '+' + this.s2 + '+' + this.s3
-                } else {
-                    return this.s1 + '+' + this.s2 + '+' + this.s3 + '+' + this.s4
-                }
-            }
-        },
-        types: {
-            t1: '',
-            t2: '',
-            t3: '',
-            t4: ''
-        },
-        gen: '',
-        blurb: '',
-        ability: '',
-        moves: {
-            m1: {
-                mname: '',
-                mtype: ''
-            },
-            m2: {
-                mname: '',
-                mtype: ''
-            },
-            m3: {
-                mname: '',
-                mtype: ''
-            },
-            m4: {
-                mname: '',
-                mtype: ''
-            },
-        },
-        universe: '',
-        photo: '',
-        link: ''
     },
 */
