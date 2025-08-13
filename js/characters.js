@@ -620,7 +620,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28772312?1723698003',
+        photo: 'imgs/Destruction Call/Cloudy.png',
         link: 'https://toyhou.se/7096453.cloudy/28772312.destruction-call-au'
     },
     {
@@ -776,7 +776,7 @@ const characters = [
             },
         },
         universe: 'Destruction Call',
-        photo: 'https://f2.toyhou.se/file/f2-toyhou-se/characters/28772552?1723698958',
+        photo: 'imgs/Destruction Call/Chipper.png',
         link: 'https://toyhou.se/9737533.chipper/28772552.destruction-call-au'
     },
     {
